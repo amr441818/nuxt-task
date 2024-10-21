@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# alamih task
+ - Auth (login and rigester)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ # technology
+ - nuxtjs 
+ - axios for fetching data
+ - vue3-toastify for showing messages
+ - nuxt icons moduls
+ 
+ 
+## Available Scripts
+- to install this project dependancy write this scripts
+## ` npm install or npm i or yarn add `
+ - before that you should have :
+ ## node package maneger to install the packages 
+ - go and install node and install all debendancy with npm install or yarn add and npm start or yarn start
+In the project directory, you can run:
 
-## Setup
+### `yarn run dev` or `npm run dev`
 
-Make sure to install dependencies:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```bash
-# npm
-npm install
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-# pnpm
-pnpm install
+### `yarn build or `npm run build`
 
-# yarn
-yarn install
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# bun
-bun install
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Development Server
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
+### `yarn build` fails to minify
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
